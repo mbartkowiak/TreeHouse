@@ -1,0 +1,22 @@
+//ask questions
+//evaluate answers
+//keep track of answers correct
+//2 dimensional array for ? and answer
+//3 questions
+var questions = [["What is your name?","Michael"],["First dog name?","Marigold"],["First school name?","St Joseph"]];
+var correct = 0;
+var wrong = 0;
+
+for(var i=0;i<questions.length;i++){
+  var play = prompt(questions[i][0]);
+  if(play === questions[i][1]){
+    alert("Congrats the answer was correct!");
+    correct++;
+  }else{
+    alert("Sorry the answer was wrong.")
+    wrong++;
+  }
+  
+}
+
+alert("Good game!  You got " + correct + " questions correct and " + wrong + " questions wrong.");
