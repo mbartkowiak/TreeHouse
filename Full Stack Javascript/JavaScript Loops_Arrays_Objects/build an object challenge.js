@@ -10,7 +10,7 @@ var students = [
 {name:"Marilyn",track:"CSS",achievement:166,points:20123},
 ]
 
-  var totalString = '';
+var totalString = '';
 
 
 for(var i=0;i<students.length;i++){
